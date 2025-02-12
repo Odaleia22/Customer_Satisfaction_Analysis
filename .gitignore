@@ -29,3 +29,7 @@ streamlit
 streamlit.cmd
 tqdm
 watchmedo
+
+echo "minha_venv/" > .gitignore
+echo "!minha_venv/bin/Satisfaction_Analysis.py" >> .gitignore
+echo "!minha_venv/bin/requirements.txt" >> .gitignore
